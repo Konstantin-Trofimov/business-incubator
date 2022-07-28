@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: $bg_color;
+}
+
+* {
+	font-family: 'Evolventa', sans-serif;
+	color: $font_color_dark;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+section:not(.promo), footer {
+	max-width: 1980px;
+    margin: 0 auto;
+}
+
+.title {
+	line-height: 100%;
+	letter-spacing: 0.07em;
+	font-weight: 700;
+}
+
+@media (max-width: 780px) {
+	.title {
+		letter-spacing: 0;
+		font-weight: 400;
+	}
+}
+
+
+.btn-outline-light:hover {
+	color: $main_color_dark;
+}
+

@@ -1,0 +1,37 @@
+.contacts {
+    height: 304px;
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__content {
+        position: absolute;
+        top: 156px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #FFFF;
+        border-radius: 5px;
+        height: 304px;
+        padding: 114px 70px 136px;
+        width: 100%;
+    }
+
+    &__social {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom:  -165px;
+    }
+
+    &__social-icon {
+       width: 100px;
+       height: 100px;
+       border-radius: 100%;
+       background: $main_color_light;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+    }
+}

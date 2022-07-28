@@ -1,0 +1,102 @@
+.projects {
+    &__wrapper {
+        padding: 96px 0 144px;
+    }
+
+    &__cards {
+        margin-top: 136px;
+    }
+
+    &__card {
+        position: relative;
+        padding: 79px 40px 40px 40px;
+        width: 343px;
+        height: 473px;
+        background: #FFFF;
+        box-shadow: 0px 6px 33px rgba(0, 0, 0, 0.28);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: ease-in-out 0.7s;
+
+        &-icon {
+            top: -50px;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: $main_color_light;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: ease-in-out 0.7s;
+
+            svg {
+                height: 52px;
+                width: 52px;
+                transition: ease-in-out 0.7s;
+
+                path {
+                    transition: ease-in-out 0.7s;
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+
+        &-title {
+            font-weight: bold;
+            font-size: 22px;
+            transition: ease-in-out 0.7s;
+        }
+
+        &-img {
+            margin-top: 30px;
+            border-radius: 5px;
+            width: 262px;
+            height: 292px;
+        }
+
+        &:hover {
+            background-color: $main_color_light;
+            animation: bounce 1s;
+
+            .projects__card-title {
+                color: $font_color_light;
+            }
+
+            .projects__card-icon {
+                background-color: #FFFF;
+
+                svg {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+    
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}

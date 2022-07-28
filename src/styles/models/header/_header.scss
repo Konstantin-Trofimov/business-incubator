@@ -1,0 +1,25 @@
+.header {
+    position: absolute;
+	width: 100%;
+	z-index: 1;
+
+    .header__container {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin-right: auto;
+        margin-left: auto
+    }   
+    
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly ;
+    } 
+}
+
+@media (min-width: 1400px) {
+    .header__container {
+        max-width: 1580px;
+    }   
+}

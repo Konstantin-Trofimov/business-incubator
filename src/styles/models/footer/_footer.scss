@@ -1,0 +1,16 @@
+.footer {
+    background: #141134;
+    padding-top: 468px;
+    height: 839px;
+
+    &__content {
+        margin-top: 224px;
+    }
+
+    &-copyright {
+        color: #fff;
+        span {
+            color: #fff;
+        }
+    }
+}
