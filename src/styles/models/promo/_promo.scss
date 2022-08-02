@@ -1,8 +1,11 @@
 .bi-promo {
-    height: 100vh;
+
+    &__slider {
+        height: 100%;
+    }
     
     &__slide {
-        height: 100%;
+        height: 100vh;
         position: relative;
 
         &-bg {
@@ -18,6 +21,7 @@
     }
 
     &__wrapper {
+        position: absolute;
         padding-top: 260px;
         padding-left: 140px;
     }
@@ -33,7 +37,13 @@
     &__subtitle {
         font-weight: 400;
         font-size: 20px;
+        line-height: 150%;
         color: $font_color_light;
+    }
+
+    &__btns {
+        position: relative;
+        z-index: 2;
     }
 
     @media (max-width: 1024px) {
