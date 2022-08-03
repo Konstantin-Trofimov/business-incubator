@@ -3,12 +3,18 @@
 
  &__wrapper {
   padding: 100px 0 0;
+  position: relative;
  }
 
  &__title {
   font-size: 60px;
   text-align: center;
   color: #FFFFFF;
+ }
+
+ &__btn {
+  position: absolute;
+  top: 250px;
  }
 
  &__items {
@@ -121,8 +127,6 @@
       font-size: 18px;
       color: #FFFFFF;
     }
-
- 
 
     &_2{
       bottom: -40px;
