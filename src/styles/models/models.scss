@@ -1,15 +1,19 @@
-@import './header/header';
-@import './promo/promo';
-@import './benefits/benefits';
-@import './submission/submission';
-@import './about/about';
+//====== NEW
+
+@import './bi-promo/bi-promo';
+@import './bi-benefits/bi-benefits';
+@import './bi-submission/bi-submission';
+@import './bi-about/bi-about';
 @import './bi-contacts/bi-contacts.scss';
-@import './map/bi-map.scss';
+@import './bi-map/bi-map.scss';
 @import './bi-contacts/bi-contacts';
-@import './format/format';
+@import './bi-format/bi-format';
 @import './bi-modules/bi-modules';
 @import './bi-subscribe/bi-subscribe';
 
+//====== OLD
+
+@import './header/header';
 @import './join/join';
 @import './services/services';
 @import './projects/projects';
