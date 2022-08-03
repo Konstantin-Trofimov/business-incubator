@@ -1,0 +1,54 @@
+.bi-subscribe {
+    background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
+
+    &__btn {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -40px;
+    }
+
+    &__wrapper {
+        padding: 150px 0 140px;
+
+    }
+
+    &__title {
+        font-size: 60px;
+        color: white;
+    }
+
+    &__items {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 102px;
+        column-gap: 24px;
+
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: 580px 500px;
+        padding-top: 40px;
+
+        p {
+            font-weight: 400;
+            line-height: 29px;
+            color: white;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 29px;
+            color: white;
+            padding-top: 15px;
+
+        }
+
+        &-decr {
+            color: white;
+
+        }
+    }
+}

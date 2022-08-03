@@ -1,9 +1,4 @@
-.bi-contacts {
-    a {
-        text-decoration: none;
-        color: #001529;
-    }
-
+.bi-format {
     &__wrapper {
         padding: 150px 0 140px;
     }
@@ -18,7 +13,7 @@
         grid-template-columns: repeat(3, 1fr);
         row-gap: 102px;
         column-gap: 24px;
-
+        ;
     }
 
     &__item {
@@ -31,8 +26,12 @@
             font-size: 22px;
             line-height: 29px;
             color: #001529;
-            padding-top: 15px;
+        }
 
+        &-list {}
+
+        &-descr {
+            line-height: 24px;
         }
     }
 }
