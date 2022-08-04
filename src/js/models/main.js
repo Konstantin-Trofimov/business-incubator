@@ -60,6 +60,7 @@ $(".bi-experts__slider").slick({
   autoplay: true,
   dots: true,
   infinite: true,
+  slidesToScroll: 3,
   slidesToShow: 3,
   arrows: true,
   variableWidth: false,

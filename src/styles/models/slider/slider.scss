@@ -28,18 +28,18 @@
 }
 
 
-.slick-next, .slick-prev {
+.bi-promo__slider .slick-next, .bi-promo__slider .slick-prev {
  width: 40px;
  height: 40px; 
  top: 85%;
  z-index: 1;
 }
 
-.slick-next {
+.bi-promo__slider .slick-next {
  right: 15%;
 }
 
-.slick-prev {
+.bi-promo__slider .slick-prev {
  left: 15%;
 }
 
@@ -74,14 +74,15 @@
 .bi-experts__slider .slick-next, .slick-prev {
  width: 40px;
  height: 40px; 
- top: 85%;
+ top: 50%;
  z-index: 1;
 }
 
 .bi-experts__slider .slick-next {
- right: 15%;
+ right: 1%;
 }
 
 .bi-experts__slider .slick-prev {
- left: 15%;
+ left: 1%;
 }
+
