@@ -36,22 +36,6 @@ $xs: 575px;
     }
 }
 
-
-//bi-submission section//
-@media screen and (max-width: $md) {
-    .bi-submission {
-        background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
-
-        &__wrapper {
-            padding: 130px 0 140px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 45px;
-        }
-
-    }
-}
-
 //bi-benefits section//
 @media screen and (max-width: $md) {
     .bi-benefits {
@@ -71,6 +55,23 @@ $xs: 575px;
         }
     }
 }
+
+
+//bi-submission section//
+@media screen and (max-width: $md) {
+    .bi-submission {
+        background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
+
+        &__wrapper {
+            padding: 130px 0 140px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 45px;
+        }
+
+    }
+}
+
 
 
 //bi-fomrat section//
@@ -94,7 +95,7 @@ $xs: 575px;
 }
 
 
-//bi-fomrat section//
+//bi-subscribe section//
 @media screen and (max-width: $md) {
     .bi-subscribe {
         background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
