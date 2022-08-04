@@ -106,7 +106,7 @@ module.exports = {
 		}),
 		new MiniCssExtractPlugin({
 			filename: isDev ? 'styles/[name].css' : 'styles/[name].[contenthash].css',
-		})
+		}),
 	
 	],
 	module: {
