@@ -1,0 +1,166 @@
+.bi-map {
+ background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
+
+ &__wrapper {
+  padding: 100px 0 0;
+  position: relative;
+ }
+
+ &__title {
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+ }
+
+ &__btn {
+  position: absolute;
+  top: 250px;
+ }
+
+ &__items {
+  margin-top: 118px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  // column-gap: 100px;
+  row-gap: 332px;
+ }
+
+ &__item {
+  position: relative;
+  &:nth-child(1), &:nth-child(3) {
+   margin-top: 150px;
+  }
+
+  &:nth-child(6), &:nth-child(8) {
+   margin-top: -150px;
+  }
+
+  &-point {
+   position: relative;
+   width: 190px;
+   height: 168px;
+
+   span {
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+   }
+  }
+
+  &-frame {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: auto;
+   z-index: 1;
+  }
+
+  &-arrow {
+   position: absolute;
+   width: 212px;
+   height: 61px;
+   top: 0;
+   left: 0;
+  }
+
+  &-arrow.up-right {
+   top: -78px;
+   left: 85px;
+  }
+
+  &-arrow.down-right {
+    top: 176px;
+    left: 86px;
+  }
+
+  &-arrow.up-left {
+   top: -75px;
+   left: -112px;
+  }
+
+  &-arrow.down-left {
+   top: 175px;
+   left: -114px;
+  }
+
+  &-arrow.half {
+   width: 14px;
+   height: 111px;
+   left: 84px;
+   top: -118px;
+  }
+
+  &-arrow.half-down {
+   width: 14px;
+   height: 54px;
+   top: 165px;
+   left: 86px;
+  }
+
+  &-arrow.half-up {
+    width: 14px;
+    height: 54px;
+    top: -64px;
+    left: 85px;
+  }
+
+  &-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+
+    span {
+      font-weight: 700;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+
+    &_2{
+      bottom: -40px;
+    }
+
+    &_3 {
+      top: -156px;
+    }
+
+    &_4 {
+      bottom: -54px;
+      left: -46px;
+    }
+
+    &_5 {
+      bottom: 141px;
+      left: -46px;
+    }
+
+    &_6 {
+      width: 437px;
+      top: -202px;
+      left: -132px;
+    }
+
+    &_7 {
+      bottom: 95px;
+      left: -46px;
+    }
+
+    &_8 {
+      left: -22px;
+      top: -148px;
+    }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+.bi-contacts {
+    a {
+        text-decoration: none;
+        color: #001529;
+    }
+
+    &__wrapper {
+        padding: 150px 0 140px;
+    }
+
+    &__title {
+        font-size: 60px;
+    }
+
+    &__items {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 102px;
+        column-gap: 24px;
+
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: 55px 300px;
+        gap: 15px;
+
+        &-title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 29px;
+            color: #001529;
+            padding-top: 15px;
+
+        }
+    }
+}

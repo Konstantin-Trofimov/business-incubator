@@ -1,0 +1,104 @@
+.bi-modules {
+    background: radial-gradient(77.04% 138.67% at 44.65% 35.98%, #261854 0%, #000812 100%);
+
+    ul {
+        ::marker {
+            font-size: 28px;
+        }
+    }
+
+    li {
+        color: white;
+
+        :last-child {
+            background: linear-gradient(90deg, #E59C28 0.01%, #F9C432 12.34%, #FCDA61 34.4%, #FFF8A0 61.85%, #F9F099 64.95%, #E7D986 69.83%, #CAB467 75.89%, #A3823D 82.81%, #774A0E 89.51%, #7A4C0F 91.85%, #855411 93.8%, #966115 95.61%, #AE731B 97.33%, #CD8A22 98.98%, #E59C28 100.01%),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 38px;
+            font-weight: 700;
+
+
+        }
+    }
+
+
+    &__wrapper {
+        padding: 130px 0 140px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+
+    }
+
+    &__module {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    &__item {
+        display: grid;
+        grid-template-columns: (200px auto);
+        gap: 40px;
+
+        &:nth-child(2) {
+            margin-left: 150px;
+        }
+
+        &-img {
+            position: relative;
+            width: 150px;
+            height: 120px;
+        }
+
+        &-frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        &-icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        &-content {
+            display: grid;
+            grid-template-rows: auto auto 330px auto auto;
+        }
+
+        &-title {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #FFFFFF;
+            padding-top: 40px;
+            text-align: center;
+
+            p {
+                padding-top: 1em;
+                color: white;
+            }
+
+            span {
+                font-weight: 700;
+                font-size: 30px;
+                color: #FFFFFF;
+                text-align: center;
+
+
+            }
+        }
+
+    }
+}

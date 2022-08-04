@@ -1,14 +1,21 @@
+
+//====== NEW
+
+@import './bi/bi-promo/bi-promo';
+@import './bi/bi-benefits/bi-benefits';
+@import './bi/bi-submission/bi-submission';
+@import './bi/bi-about/bi-about';
+@import './bi/bi-contacts/bi-contacts.scss';
+@import './bi/bi-map/bi-map.scss';
+@import './bi/bi-contacts/bi-contacts';
+@import './bi/bi-format/bi-format';
+@import './bi/bi-modules/bi-modules';
+@import './bi/bi-subscribe/bi-subscribe';
+@import './bi/bi-experts/bi-experts';
+
+//====== OLD
+
 @import './header/header';
-@import './promo/promo';
-@import './benefits/benefits';
-@import './submission/submission';
-@import './about/about';
-@import './bi-contacts/bi-contacts';
-@import './format/format';
-@import './bi-modules/bi-modules';
-@import './bi-subscribe/bi-subscribe';
-
-
 @import './join/join';
 @import './services/services';
 @import './projects/projects';

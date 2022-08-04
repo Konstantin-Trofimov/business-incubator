@@ -1,9 +1,11 @@
-html, body {
+html,
+body {
 	height: 100%;
 }
 
 body {
 	background-color: $bg_color;
+	// background-color: #FFFFFF;
 }
 
 * {
@@ -23,9 +25,10 @@ li{
 }
 
 
-section:not(.promo), footer {
+section:not(.promo),
+footer {
 	max-width: 1980px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .title {
@@ -45,4 +48,3 @@ section:not(.promo), footer {
 .btn-outline-light:hover {
 	color: $main_color_dark;
 }
-
