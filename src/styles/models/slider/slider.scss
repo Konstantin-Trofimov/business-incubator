@@ -1,3 +1,5 @@
+//======= promo
+
 .slick-dots {
  top: 70%;
  display: flex;
@@ -41,3 +43,45 @@
  left: 15%;
 }
 
+//======= experts
+
+.bi-experts__slider .slick-dots {
+ top: 110%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.bi-experts__slider .slick-dots li button:before {
+ background-color: #001529;
+ content: '';
+ opacity: .7;
+ width: 10px;
+ height: 10px;
+ border-radius: 100%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.bi-experts__slider .slick-dots li.slick-active button:before {
+ width: 20px;
+ height: 20px;
+ border: 3px solid #001529;
+ background-color: transparent;
+}
+
+.bi-experts__slider .slick-next, .slick-prev {
+ width: 40px;
+ height: 40px; 
+ top: 85%;
+ z-index: 1;
+}
+
+.bi-experts__slider .slick-next {
+ right: 15%;
+}
+
+.bi-experts__slider .slick-prev {
+ left: 15%;
+}
