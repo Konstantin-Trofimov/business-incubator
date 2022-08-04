@@ -1,5 +1,4 @@
 
-console.log(2)
 
 $(".bi-promo__slider").slick({
 
