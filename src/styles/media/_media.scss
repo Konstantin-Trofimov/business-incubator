@@ -5,6 +5,23 @@ $sm: 767px;
 $xs: 575px;
 
 
+
+
+//bi-promo section//
+
+@media screen and (max-width: $xs) {
+    .bi-promo__title {
+        font-size: 24px;
+    }
+
+    .bi-promo__subtitle {
+        font-size: 12px;
+    }
+}
+
+
+
+
 //bi-about section//
 @media screen and (max-width: $md) {
     .bi-about {
@@ -77,14 +94,15 @@ $xs: 575px;
         }
 
         &__item-descr {
-            font-size: 18px;
+            font-size: 12px;
             font-weight: 400;
             text-align: left;
+            line-height: 145%;
         }
 
         &__item-title {
             margin-top: 20px;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 700;
         }
     }
@@ -122,7 +140,7 @@ $xs: 575px;
 
 @media screen and (max-width: $xs) {
     .bi-benefits {
-        padding: 50px 0 40px;
+        padding: 20px 0 30px;
 
         &__title {
             font-size: 24px;
@@ -144,6 +162,10 @@ $xs: 575px;
             &-title {
                 font-size: 18px;
                 font-weight: 700;
+            }
+
+            &-descr {
+                font-size: 12px;
             }
 
         }
@@ -193,23 +215,47 @@ $xs: 575px;
             gap: 45px;
         }
 
+        &__item {
+            display: grid;
+            grid-template-columns: 95px auto;
+            gap: 10px;
+        }
+
         &__item-title {
-            font-size: 18px;
+            font-size: 12px;
 
             span {
-                font-size: 24px;
+                font-size: 18px;
             }
         }
 
         &__item-subtitle {
-            font-size: 11px;
+            font-size: 9px;
+            margin-bottom: 15px;
+
+        }
+
+        // &__item-frame {
+        //     width: 50%;
+        // }
+
+        &__item-icon {
+            width: 30%;
+            top: 30%;
+
         }
 
         &__item-descr {
-            font-size: 14px;
+            font-size: 12px;
+            line-height: 16px;
+            min-height: 75px;
         }
 
+        .golden-btn-bordored {
+            font-size: 12px;
+        }
     }
+
 }
 
 
@@ -263,6 +309,14 @@ $xs: 575px;
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
+
+            li {
+                font-size: 12px;
+            }
+
+            &-title {
+                font-size: 18px;
+            }
         }
     }
 }
